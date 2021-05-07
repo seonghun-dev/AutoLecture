@@ -6,7 +6,7 @@
 
 <div align="center">
   <br/>
-  <img src="https://github.com/seonghun-dev/AutoLecture/blob/master/Docs/AutoLectureSample.gif?raw=true" width="400" />
+  <img src="https://github.com/seonghun-dev/AutoLecture/blob/master/Docs/AutoLectureSample.gif?raw=true"/>
   <br/>
   </p>
 </div>
