@@ -6,7 +6,7 @@
 
 <div align="center">
   <br/>
-  <img src="https://www.konkuk.ac.kr/img/Intro/UI_Mark_2011.jpg" width="200" />
+  <img src="https://github.com/seonghun-dev/AutoLecture/blob/master/Docs/AutoLectureSample.gif?raw=true" width="400" />
   <br/>
   </p>
 </div>
