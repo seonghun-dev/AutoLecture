@@ -8,7 +8,8 @@ browser.get('https://ecampus.konkuk.ac.kr/ilos/main/member/login_form.acl')
 
 #로그인
 elem = browser.find_element_by_id("usr_id")
-elem.send_keys("seonghun912")
+id = input("아이디를 입력하세요")
+elem.send_keys(id)
 
 elem = browser.find_element_by_id("usr_pwd")
 password = input("비밀번호를 입력하세요.")
@@ -51,42 +52,3 @@ while True:
 
     n = n + 1
     browser.get("http://ecampus.konkuk.ac.kr/ilos/st/course/online_list_form.acl?WEEK_NO=" + str(n))
-    '''
-    # 종료
-    xpath = "/html/body/div[2]/div[2]/div[1]/div[2]"
-    end = browser.find_element_by_xpath(xpath)
-    end.click()
-    '''
-    # 알림처리
-    '''
-    alert = browser.switch_to.alert
-    if alert == 1:
-        alert.accept()
-        sleep(2)
-    '''
-
-'''
-while True:  # 무한반복
-    xpath = "/html/body/div[3]/div[2]/div/div[2]/div[2]/div[2]/div[2]/div/div[4]/div/div[2]"
-    el = browser.find_element_by_xpath(xpath)
-    if el.text == '1/1':
-        el.click()
-        break
-
-search = browser.find_element_by_xpath("/html/body/div[3]/div[2]/div/div[2]/div[2]/div[3]/div/div/ul/li[2]/img")
-search.click()
-
-sleep(25)
-
-# 종료
-xpath = "/html/body/div[2]/div[2]/div[1]/div[2]"
-end = browser.find_element_by_xpath(xpath)
-end.click()
-
-start = browser.find_element_by_xpath("/html/body/div[2]/div/button")
-start.click()
-
-xpath = "/html/body/div[2]/div/div[4]/div[4]/span[2]"
-full = browser.find_element_by_xpath(xpath)
-
-'''
